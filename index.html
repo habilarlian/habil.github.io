@@ -12,7 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
     <link rel="stylesheet" href="adbil.css">
-    <link rel="shortcut icon" href="logo-fav.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/logo-fav.png" type="image/x-icon">
     <title>AdBiL SHOP</title>
 </head>
 
@@ -28,6 +28,7 @@
         <div class="navbar-container">
             <div class="navbar-left">
                 <i class="fa-solid fa-x bars-close" onclick="tutup() "></i>
+                <!-- <img src="hamburger-menu-svgrepo-com.svg" alt="" onclick="muncul()" class="bars-active" id="bars"> -->
                 <i onclick="muncul()" class="fa-solid fa-bars bars-active" id="bars"></i>
                 <a href="">Login </a>
                 <span class="span">/</span>
@@ -43,7 +44,9 @@
             </div>
         </div>
     </div>
-
+    <div class="to-up">
+       <a href="#" id="arrow1"><img src="svg/arrow-circle-up-svgrepo-com.svg" alt="" id="arrow" onclick=""></a> 
+    </div>
     <!-- scroll -->
     <div class="swiper" tipe =  data-swiper-autoplay="3000">
   
@@ -69,7 +72,7 @@
                             <a href="#"><button>SHOP NOW</button></a>
                         </div>
                         <div class="main-right2" id="image">
-                            <img src="shoes-2.png" alt="" style="filter: hue-rotate(-125deg);">
+                            <img src="img/shoes-2.png" alt="" style="filter: hue-rotate(-125deg);">
                         </div>
 
                         <div class="typo">
@@ -118,7 +121,7 @@
                             <a href=""><button>SHOP NOW</button></a>
                         </div>
                         <div class="main-right2" id="image">
-                            <img src="shoes-2.png" alt="">
+                            <img src="img/shoes-2.png" alt="">
                         </div>
                         <div class="typo-2">
                             <p id="blood">6 <br> Blood <br></p>
@@ -168,7 +171,7 @@
                             <a href=""><button>SHOP NOW</button></a>
                         </div>
                         <div class="main-right2" id="image">
-                            <img src="shoes-2.png" alt="" style="filter: hue-rotate(180deg);">
+                            <img src="img/shoes-2.png" alt="" style="filter: hue-rotate(180deg);">
                         </div>
                         <div class="typo-3">
                             <p id="blood">Terrible</p>
@@ -196,30 +199,57 @@
     <div class="shipping">
         <div class="shipping-container">
             <div class="shipping1">
-                <i>truk</i>
+                <img src="svg/free-shipping-sales-svgrepo-com.svg" alt="" id="free">
                 <h2>FREE SHIPPING</h2>
-                <p>Get 10% cash back,free shipping <br> ,free returns,and more at 1000+ top <br> retailers</p>
+                <p>Get 10% cash back,free shipping, free returns, and more at 1000+ top retailers</p>
             </div>
             <div class="shipping1">
-                <i>truk</i>
-                <h2>FREE SHIPPING</h2>
-                <p>Get 10% cash back,free shipping <br> ,free returns,and more at 1000+ top <br> retailers</p>
+                <img src="svg/refund-svgrepo-com.svg" alt="" id="free">
+                <h2>30 DAYS MONEY BACK</h2>
+                <p>100% satisfaction guaranteed, or get your money back within 30 days!!</p>
             </div>
             <div class="shipping1">
-                <i>truk</i>
-                <h2>FREE SHIPPING</h2>
-                <p>Get 10% cash back,free shipping <br> ,free returns,and more at 1000+ top <br> retailers</p>
+                <img src="svg/rating-star-svgrepo-com.svg" alt="" id="free">
+                <h2>LOYALTY CUSTOMERS</h2>
+                <p>Card for the other 30% of their purchases ad a rate of 1% cash back.</p>
             </div>
             <div class="shipping1">
-                <i>truk</i>
-                <h2>FREE SHIPPING</h2>
-                <p>Get 10% cash back,free shipping <br> ,free returns,and more at 1000+ top <br> retailers</p>
+                <img src="svg/secure-payment-bank-svgrepo-com.svg" alt="" id="free">
+                <h2>SAFE PAYMENT</h2>
+                <p>Pay with the world's most popular and secure payment methods.</p>
             </div>
         </div>
     </div>
     <!-- shipping section end -->
     <!-- colection start -->
     <div class="colections" id="colections">
+        <div class="shoes shoes-1">
+            <img src="img/shoes-red.png" alt="">
+            <h2>Nike Shoes</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="shoes shoes-1">
+            <img src="img/shoes-red.png" alt="">
+            <h2>Nike Air Max</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="shoes shoes-1">
+            <img src="img/shoes-red.png" alt="">
+            <h2>Nike Flow Blue</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+
+        <div class="shoes shoes-2">
+            <img src="img/shoes2.png" alt="">
+        </div>
+        <div class="shoes shoes-2">
+            <img src="img/shoes2.png" alt="">
+
+        </div>
+        <div class="shoes shoes-2">
+            <img src="img/shoes2.png" alt="">
+
+        </div>
     </div>
     <!-- colection end -->
     <!-- seller start -->
